@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: curl-util
+  namespace: argocd
 spec:
   containers:
   - name: curl-util
@@ -9,4 +10,4 @@ spec:
     command:
     - sh
     - -c
-    - while true; do sleep 2; done
+    - while true; do sleep 1; done
