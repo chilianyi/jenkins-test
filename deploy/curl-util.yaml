@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: curl-util
-    image: radial/busyboxplus:curl
+    image: busybox:1.31 
     command:
     - sh
     - -c
