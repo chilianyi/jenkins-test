@@ -23,7 +23,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:1.23.2
         imagePullPolicy: Always
         name: nginx
         resources: {}
