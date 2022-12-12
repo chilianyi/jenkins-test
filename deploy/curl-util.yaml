@@ -9,4 +9,4 @@ spec:
     command:
     - sh
     - -c
-    - while true; do sleep 1; done
+    - while true; do sleep 5; done
